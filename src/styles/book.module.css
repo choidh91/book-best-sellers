@@ -1,0 +1,46 @@
+.book {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.book img {
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.book img {
+  opacity: 0.7;
+}
+
+.book img:hover {
+  opacity: 1;
+}
+
+.book a {
+  font-weight: 700;
+}
+
+.book span {
+  font-size: 12px;
+}
+
+.bookList {
+  list-style: none;
+  padding: 0;
+}
+
+.bookItem {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.bookImage {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}

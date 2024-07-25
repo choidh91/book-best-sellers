@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  margin: 0.5rem 0;
+}
